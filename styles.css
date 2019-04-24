@@ -1,14 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Exo");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background: white;
+  background: url(./clock-background.svg);
 }
 .main {
   background: #ccc;
   margin: 200px auto;
   width: 400px;
+  padding: 20px;
   height: 160px;
+  position: relative;
+}
+.logo {
+  width: 80px;
+  background: #706d00;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 40%;
+}
+
+.clock {
+  background: #957c5b;
+  border-radius: 5px;
+  font-size: 50px;
+  text-align: center;
+  height: 100%;
+  padding: 1.5rem;
+  font-family: "Exo", sans-serif;
 }
